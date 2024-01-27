@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="LessonWork.AvaloniaApp.Windows.Login"
+        Title="Login">
+
+    <Window.Styles>
+        <StyleInclude
+            Source="/Styles/Labels.axaml"></StyleInclude>
+
+        <StyleInclude
+            Source="/Styles/Buttons.axaml"></StyleInclude>
+
+        <Style Selector="Window">
+            <Setter Property="Background" Value="Gray"></Setter>
+            <Setter Property="Opacity" Value="0.80"></Setter>
+            <Setter Property="Width" Value="600"></Setter>
+            <Setter Property="Height" Value="450"></Setter>
+        </Style>
+    </Window.Styles>
+
+    <StackPanel>
+        <Label Classes="Head">Sign In</Label>
+        <Label Classes="Cred">Login:</Label>
+        <TextBox HorizontalAlignment="Center" Width="400"></TextBox>
+        <Label Classes="Cred" >Password:</Label>
+        <TextBox HorizontalAlignment="Center" Width="400" PasswordChar="*"></TextBox>
+        <Button Click="ButtonLogin"
+                Classes="Accept">
+            <Image Width="24" Height="24" Source="/Assets/Images/unlocked.png"></Image>
+        </Button>
+        <Button Classes="Decline" Content="Exit"></Button>
+    </StackPanel>
+
+</Window>
+
