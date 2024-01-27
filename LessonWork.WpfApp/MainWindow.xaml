@@ -1,12 +1,28 @@
-﻿<Window x:Class="LessonWork.WpfApp.MainWindow"
+<Window x:Class="LessonWork.WpfApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LessonWork.WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="LessonWork" Height="450" Width="800" FontFamily="Algerian" FontSize="72" FontStretch="Medium">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF6665A4" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="LessonWork" VerticalAlignment="Center" Width="600" Height="100" Foreground="#FF550DC6" Margin="0,0,0,250" TextAlignment="Center">
+            <TextBlock.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0BA238"/>
+                    <GradientStop Color="#FFE2EBE5" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <Button x:Name="button" Content="Ok" HorizontalAlignment="Left" Margin="364,350,0,0" VerticalAlignment="Top" Click="button_Click" Width="200" FontFamily="Calibri" FontSize="36" BorderBrush="#FFEBEBEB" Height="50"/>
+
 
     </Grid>
 </Window>
