@@ -1,0 +1,27 @@
+<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style Selector="Button.Accept">
+        <Setter Property="Background" Value="LawnGreen"></Setter>
+        <Setter Property="Foreground" Value="Indigo"></Setter>
+        <Setter Property="Margin" Value="15"></Setter>
+        <Setter Property="Width" Value="150"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="CornerRadius" Value="10"></Setter>
+        <Setter Property="FontFamily" Value="{StaticResource ComicoroFont}"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+    </Style>
+    <Style Selector="Button.Decline">
+        <Setter Property="Background" Value="Red"></Setter>
+        <Setter Property="Foreground" Value="Indigo"></Setter>
+        <Setter Property="Margin" Value="15"></Setter>
+        <Setter Property="Width" Value="150"></Setter>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="FontFamily" Value="{StaticResource ComicoroFont}"></Setter>
+        <Setter Property="CornerRadius" Value="10"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+    </Style>
+</Styles>

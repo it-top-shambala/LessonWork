@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonWork.WpfApp", "LessonWork.WpfApp\LessonWork.WpfApp.csproj", "{DA9BFE69-13E6-43BF-B284-64B6DF07823A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonWork.AvaloniaApp", "LessonWork.AvaloniaApp\LessonWork.AvaloniaApp.csproj", "{04D46E01-9A49-4B28-AC0C-1021EA3BC306}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA9BFE69-13E6-43BF-B284-64B6DF07823A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA9BFE69-13E6-43BF-B284-64B6DF07823A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA9BFE69-13E6-43BF-B284-64B6DF07823A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA9BFE69-13E6-43BF-B284-64B6DF07823A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D46E01-9A49-4B28-AC0C-1021EA3BC306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D46E01-9A49-4B28-AC0C-1021EA3BC306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D46E01-9A49-4B28-AC0C-1021EA3BC306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D46E01-9A49-4B28-AC0C-1021EA3BC306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
